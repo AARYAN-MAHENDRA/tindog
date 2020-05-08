@@ -1,0 +1,172 @@
+/*--------------------------------------------------------SELECTOR BLOCK------------------------------------------------*/
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+#testimonials h2 {
+  font-family: 'Montserrat', sans-serif;
+  size: 3rem;
+  line-height: 1.5;
+  color: white;
+  width: 50%;
+  margin: 3% auto;
+}
+
+#cta h3 {
+  font-family: 'Montserrat', sans-serif;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+/*--------------------------------------------------------ID BLOCK------------------------------------------------*/
+#title {
+  background-color: #ff4c68;
+}
+
+#iphone {
+  transform: rotate(25deg);
+  width: 60%;
+  position: absolute;
+}
+
+@media (max-width:1200px) {
+  #iphone {
+    transform: rotate(0deg);
+    position: static;
+  }
+}
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+}
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 5%;
+}
+
+#pricing {
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 5%;
+  line-height: 1.5;
+}
+
+#footer {
+  text-align: center;
+  font-size: 90%;
+  padding: 2%;
+}
+
+/*--------------------------------------------------------CLASS BLOCK------------------------------------------------*/
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.col-lg-6 {
+  margin-top: 4.5rem;
+}
+
+.download-buttons {
+  margin-top: 2.25rem;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.check {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.check:hover {
+  opacity: 0.5;
+}
+
+.bullseye {
+  border-radius: 100%;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.bullseye:hover {
+  opacity: 0.5;
+}
+
+.heart {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.heart:hover {
+  opacity: 0.5;
+}
+
+.row {
+  margin: 20px;
+  margin-top: 50px;
+  text-align: center;
+  padding: 100px;
+}
+
+.col-lg-4 {
+  margin-bottom: 50px;
+}
+
+.testimonial-img {
+  width: 10%;
+  margin: 20px;
+  border-radius: 100%;
+}
+
+.press-img {
+  width: 15%;
+  padding-left: 5%;
+}
+
+.pricing-h2-p {
+  margin-top: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.download-button {
+  padding-left: 5%;
+  margin: 3px;
+}
+
+.cta-btn {
+  margin: 2%;
+}
+
+.footer-fab {
+  margin: 1%;
+}
